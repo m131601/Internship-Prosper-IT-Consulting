@@ -1,11 +1,11 @@
 # Live Project
-Introduction
+## Introduction
 
 For the last two weeks of my time at The Tech Academy. I worked with my peers in a team developing a Web Site in HTML, CSS and JavaScript. It was a great learning experience to work in Azure DevOps as a team. I had daily standups with the Project Manager and also a weekly Sprint retrospective. I worked on several front end stories that I am proud of. Everyone on the team had a chance to owrk on front end stories and some also did back end stories. Over the two week sprint I had the opportunity to work with Project Management with my programming skills that I will be able to use again in the future on future projects.
 
 Below are descriptions some of the stories I worked on along with code snippets.
 
-Modal
+## Modal
 
 I use Bootstrap to create the modal and added a form in the modal that allowed the user to input information. I subscribed to formspree.io so that information that is entered in the form will come to my destinated email.
 <style>
@@ -53,7 +53,7 @@ I use Bootstrap to create the modal and added a form in the modal that allowed t
           </script>
 
 
-Top to Bottom Button
+## Top to Bottom Button
 
 I created a button that when the user reaches the bottom of the page when clicked on it will take them to the top of the page. 
 
