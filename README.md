@@ -6,6 +6,7 @@ For the last two weeks of my time at The Tech Academy. I worked with my peers in
 Below are descriptions some of the stories I worked on along with code snippets.
 
 Modal
+
 I use Bootstrap to create the modal and added a form in the modal that allowed the user to input information. I subscribed to formspree.io so that information that is entered in the form will come to my destinated email.
 <style>
 
@@ -42,6 +43,7 @@ I use Bootstrap to create the modal and added a form in the modal that allowed t
 		width: 80%;
 	}
 	/*define the close button*/
+	
   </style>    
       <!-- Modal with formspree.io-->
           <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
@@ -52,6 +54,7 @@ I use Bootstrap to create the modal and added a form in the modal that allowed t
 
 
 Top to Bottom Button
+
 I created a button that when the user reaches the bottom of the page when clicked on it will take them to the top of the page. 
 
      <div id="bottom-button" class="d-none">
