@@ -91,9 +91,6 @@ function toTop(){
 }
 
 
-/**** BACK TO TOP BUTTON *******/
-
-
 #bottom-button{
     position: fixed;
     bottom: 2vh;
