@@ -66,8 +66,8 @@ I created a button that when the user reaches the bottom of the page when clicke
     </div>
 
 
-/Bottom to Top
-//Get the button:
+//Back to Top
+
 window.onscroll = function() {
   var myButton = document.getElementById("bottom-button");
   var myButtonMoblie = document.getElementById("bottom-button-mobile");
@@ -89,6 +89,8 @@ window.onscroll = function() {
 function toTop(){
   window.scrollTo(0,0);
 }
+
+
 /**** BACK TO TOP BUTTON *******/
 
 
