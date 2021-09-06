@@ -8,8 +8,9 @@ Below are descriptions some of the stories I worked on along with code snippets.
 ## Modal
 
 I use Bootstrap to create the modal and added a form in the modal that allowed the user to input information. I subscribed to formspree.io so that information that is entered in the form will come to my destinated email.
-<style>
+	
 
+    <style>
     /* set a style for all buttons*/
 	button {
 		background-color: rgb(128, 0, 79);
@@ -44,8 +45,8 @@ I use Bootstrap to create the modal and added a form in the modal that allowed t
 	}
 	/*define the close button*/
 	
-  </style>    
-      <!-- Modal with formspree.io-->
+  	</style>    
+      	<!-- Modal with formspree.io-->
           <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
           <script>
             window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
@@ -68,45 +69,45 @@ I created a button that when the user reaches the bottom of the page when clicke
 
 //Back to Top
 
-window.onscroll = function() {
-  var myButton = document.getElementById("bottom-button");
-  var myButtonMoblie = document.getElementById("bottom-button-mobile");
-  if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {                            
-      myButton.classList.add('d-md-block');
-      myButton.classList.add('fade-in');
-      myButtonMoblie.classList.add('fade-in');
-      myButtonMoblie.classList.add('d-block');
-      myButtonMoblie.classList.remove('d-none');
-  } else {
-      myButton.classList.remove('fade-in');
-      myButton.classList.remove('d-md-block');
-      myButtonMoblie.classList.remove('fade-in');
-      myButtonMoblie.classList.remove('d-block');
-      myButtonMoblie.classList.add('d-none');
-  }
-}
+	window.onscroll = function() {
+  	var myButton = document.getElementById("bottom-button");
+  	var myButtonMoblie = document.getElementById("bottom-button-mobile");
+  	if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100) {                            
+      	myButton.classList.add('d-md-block');
+      	myButton.classList.add('fade-in');
+      	myButtonMoblie.classList.add('fade-in');
+      	myButtonMoblie.classList.add('d-block');
+     	myButtonMoblie.classList.remove('d-none');
+  	} else {
+      	myButton.classList.remove('fade-in');
+      	myButton.classList.remove('d-md-block');
+      	myButtonMoblie.classList.remove('fade-in');
+      	myButtonMoblie.classList.remove('d-block');
+      	myButtonMoblie.classList.add('d-none');
+  	}
+	}
 
-function toTop(){
-  window.scrollTo(0,0);
-}
+	function toTop(){
+  	window.scrollTo(0,0);
+	}
 
 
-#bottom-button{
-    position: fixed;
-    bottom: 2vh;
-    right: 2vw;
-}
+	#bottom-button{
+    	position: fixed;
+    	bottom: 2vh;
+	right: 2vw;
+	}
 
-#bottom-button-mobile{
-    position: fixed;
-    bottom: 2vh;
-    left: 2vw;
-}
+	#bottom-button-mobile{
+    	position: fixed;
+    	bottom: 2vh;
+    	left: 2vw;
+	}
 
-.fade-in{
-    animation: fadeIn 3s;
-    -webkit-animation: fadeIn 3s;
-    -moz-animation: fadeIn 3s;
-    -o-animation: fadeIn 3s;
-    -ms-animation: fadeIn 3s;
-}
+	.fade-in{
+    	animation: fadeIn 3s;
+    	-webkit-animation: fadeIn 3s;
+    	-moz-animation: fadeIn 3s;
+    	-o-animation: fadeIn 3s;
+    	-ms-animation: fadeIn 3s;
+	}
