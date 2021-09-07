@@ -1,4 +1,4 @@
-# Live Project
+# Internship-Prosper IT Consulting
 ## Introduction
 
 For the last two weeks of my time at The Tech Academy. I worked with my peers in a team developing a Web Site in HTML, CSS and JavaScript. It was a great learning experience to work in Azure DevOps as a team. I had daily standups with the Project Manager and also a weekly Sprint retrospective. I worked on several front end stories that I am proud of. Everyone on the team had a chance to owrk on front end stories and some also did back end stories. Over the two week sprint I had the opportunity to work with Project Management with my programming skills that I will be able to use again in the future on future projects.
